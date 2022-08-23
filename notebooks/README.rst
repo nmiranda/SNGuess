@@ -7,7 +7,7 @@ This folder contains Jupyter notebooks that display and save the plots and overa
 
 To run notebooks, install with ``conda`` the dependencies included in the ``snguess.yml`` file::
 
-        conda env create --file snguess.yml
+        conda env create --file env.yml
 
 Afterwards, run the Jupyter server and open its user interface by running::
 
