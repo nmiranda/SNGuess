@@ -9,8 +9,9 @@ To run notebooks, install with ``conda`` the dependencies included in the ``sngu
 
         conda env create --file env.yml
 
-Afterwards, do an editable installation of SNGuess in the root folder::
+Afterwards, activate the environment and do an editable installation of SNGuess in the root folder::
 
+        conda activate snguess
         conda develop .
 
 and then run the Jupyter server and open its web interface by running::
