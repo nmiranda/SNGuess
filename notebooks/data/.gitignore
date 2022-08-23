@@ -1,0 +1,8 @@
+# Folder for notebook output data
+
+# For version control:
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+

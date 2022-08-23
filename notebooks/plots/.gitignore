@@ -1,0 +1,7 @@
+# Folder for saving notebook plots
+
+# For version control:
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
