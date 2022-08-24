@@ -3,20 +3,7 @@
 SNGuess Notebooks
 =================
 
-This folder contains Jupyter notebooks that display and save the plots and overall results of the SNGuess paper.
-
-To run notebooks, install with ``conda`` the dependencies included in the ``snguess.yml`` file::
-
-        conda env create --file env.yml
-
-Afterwards, activate the environment and do an editable installation of SNGuess in the root folder::
-
-        conda activate snguess
-        conda develop .
-
-and then run the Jupyter server and open its web interface by running::
-
-        jupyter notebook
+This folder contains Jupyter notebooks that display and save the plots and overall results of the SNGuess article.
 
 Training and testing
 ___________________
