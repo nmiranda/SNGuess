@@ -1,12 +1,14 @@
-.. -*- mode: rst -*-
+# SNGuess Notebooks
 
-SNGuess Notebooks
-=================
+This folder contains [Jupyter](https://jupyter.org/) notebooks that display and save the plots and overall results of the SNGuess article.
 
-This folder contains Jupyter notebooks that display and save the plots and overall results of the SNGuess article.
+After installing SNGuess, you can just run in this folder the conmmand:
+```
+jupyter notebook
+```
+and the Jupyter notebook web interface should automatically open in your browser.
 
-Training and testing
-___________________
+## Training and testing
 
 The notebooks for training and testing SNGuess should be executed in the following order:
 
@@ -16,8 +18,7 @@ The notebooks for training and testing SNGuess should be executed in the followi
 4. ``logreg_results.ipynb``
 5. ``snguess_results.ipynb``
 
-Running SNGuess over ZTF alerts
-_______________________________
+## Running SNGuess over ZTF alerts
 
 The notebook ``snguess_ztf_alert.ipynb`` shows an example of how to query the alerts of an arbitrary ZTF candidate from the DESY archives, and obtain an SNGuess score for them.
 
@@ -27,7 +28,6 @@ Once your GitHub user is granted access, log in to your account and visit https:
 
 **Note**: please make sure that you generate a permanent **archive token** for accessing the DESY archives. You can do this by accessing the "Archive tokens" tab in the aforementioned url.
 
-Auxiliary notebook
-___________________
+## Auxiliary notebook
 
 Notebook ``roc_curve.ipynb`` generates an example of a ROC curve for didactic purposes.

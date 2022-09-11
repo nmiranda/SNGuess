@@ -10,12 +10,6 @@ SNGuess can be installed from PyPI:
 pip install snguess
 ```
 
-Notebook [snguess_ztf_alert.ipynb](notebooks/snguess_ztf_alert.ipynb) additionally requires to install for its execution a yet unreleased version of [Ampel-HU-astro](https://github.com/AmpelProject/Ampel-HU-astro/). A build from commit `0c17865` has been tested to work correctly. To install with `pip`, simply run:
-
-```bash
-pip install git+https://github.com/AmpelProject/Ampel-HU-astro.git@0c1786565c003a5208237f4b6099d3145488a526
-```
-
 ## Notebooks
 
 The [notebooks folder](notebooks/) contains Jupyter notebooks with examples and code for generating the results shown in the SNGuess article.
